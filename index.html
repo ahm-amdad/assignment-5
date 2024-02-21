@@ -42,8 +42,6 @@
               <div>
                 <button class="btn "><span>Bus</span>
                     <img src="images/bus-icon.png" alt=""></button>
-               
-                
               </div>
             </div>
           </div>
@@ -71,7 +69,6 @@
                 
               </div>
               <div class="flex w-full space-x-2 flex-wrap  ">
-
                     <div class="flex  w-[48%] items-center justify-center  bg-[#FFBF0F] ">
                         <div class="md:p-2 p-1  w-3/4 text-center">
                             <h4>15% OFF</h4>
@@ -87,8 +84,6 @@
                     </div>
 
 
-
-                <!-- ============= -->
                     <div class="flex  w-[48%] items-center justify-center bg-[#F78C9C]">
                     
                     <div class="md:p-2 p-1 text-center w-3/4">
@@ -104,15 +99,17 @@
                     </div>
               </div>
 
-              <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+            
+              <button  class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+            </div> 
             </div>
           </section>
           
 
 
-<!-- ============================ -->
+<!-- =============== P.H Paribahan ============= -->
 
-    <section class="text-gray-600 body-font bg-[#F7F8F8]">
+    <section id="section-poribohon" class="text-gray-600 body-font bg-[#F7F8F8]">
         <div class="container px-5 py-24 mx-auto ">
         <div class="flex flex-col text-center w-full mb-20">
           
@@ -134,7 +131,6 @@
                           <img class="w-10" src="images/bus-icon.png" alt=""><span>40 seat left</span>
                     </button>  
                 </div>
-                
             </div>
             <div class="bg-[#F7F8F8] p-8  rounded-md">
                 <div class="p-5 space-y-8">
@@ -194,26 +190,26 @@
 <!-- seat here -->
         <div class="h-fit flex justify-evenly items-center content-center">
           <div class="grid grid-cols-3 gap-4 content-center items-center rounded-md">
-            <div class="A rounded-md text-center  w-[60px] h-[50px] bg-slate-400 ">A</div>
-            <div class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">A1</div>
-            <div class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">A2</div>
+            <div  class="A rounded-md text-center  w-[60px] h-[50px] bg-slate-400 ">A</div>
+            <div onclick="seatA1()" id="a1" class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">A1</div>
+            <div id="clickOnceButton" class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">A2</div>
             <div class="A rounded-md text-center  w-[60px] h-[50px] bg-slate-400 ">B</div>
-            <div class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">B1</div>
-            <div class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">B2</div>
+            <div id="B1"  class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">B1</div>
+            <div id="B2"  class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">B2</div>
             <div class="A rounded-md text-center  w-[60px] h-[50px] bg-slate-400 ">C</div>
-            <div class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">C1</div>
-            <div class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">C2</div>
+            <div id="C1" class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">C1</div>
+            <div id="C2" class="A rounded-md text-center  w-[100px] h-[50px] bg-slate-400 ">C2</div>
             
           
           </div>
 <!-- ------- -->
           <div class="grid grid-cols-2 gap-4">
-            <div class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">A3</div>
-            <div class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">B4</div>
-            <div class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">B3</div>
-            <div class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">B4</div>
-            <div class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">C3</div>
-            <div class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">C4</div>
+            <div id="A3"  class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">A3</div>
+            <div id="A4" class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">A4</div>
+            <div id="B3"  class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">B3</div>
+            <div id="B4"  class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">B4</div>
+            <div id="C3" class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">C3</div>
+            <div id="C4" class="A rounded-md text-center   w-[100px] h-[50px] bg-slate-400 ">C4</div>
             
           
           </div>
@@ -226,13 +222,29 @@
       </div>
 
       <!-- ---------------- -->
-      <div class="seat-count w-[40%] ">
-          <h1>heeeldodadd</h1>
+      <div class="seat-count w-[40%]  p-5 bg-[#F7F8F8]">
+        <h2 class="text-4xl mb-5">Select Your seat</h2>
+       
+         <div class="flex  justify-around ">
+          <div id="add-seat">
+            <p class="mb-4 text-4xl font-bold text-cyan-600">Seat</p> 
+            <h2 id="seat-name"></h2>
+            </ul>
+          </div>
+         <div id="add-class">
+          <p class="mb-4 text-4xl font-bold text-cyan-600">Class</p>
+          <h2 id="class-name"></h2>
+         </div>
+         <div id="Price"> 
+          <p class="mb-4 text-4xl font-bold text-cyan-600">Pirce</p>
+          <h2 id="price-amount"></h2>
+         </div>
+         </div> 
       </div>
      </div>
  </section>
       <!-- ============== --> -->
-       
+      
 
 
           
@@ -241,7 +253,10 @@
     <footer>
 
     </footer>
-
+    <script>
+      
+     
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
